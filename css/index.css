@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 100px;
+}
+
+header{
+    text-align: center;
+}
+nav li{
+    display: inline;
+    padding: 60px;
+    font-size: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    color: black;
+}
+.wellcome{
+    padding: 20px;
+    background: darkblue;
+    text-align: center;
+    color: white;
+}
+.places{
+    padding: 30px;
+}
+p{
+    font-size: 18px;
+    line-height: 1.4;/*Aumenta el espacio entre lineas a 1.4*/
+}
+.wellcome h1, .places h2{
+    color: #005A9C;
+}
+.infoCurso img{
+    width: 225px;
+    float: left; /*Colocamos la imagen a la izquierda*/
+    margin-right: 30px;
+}
+.infoCurso{
+    overflow: auto; /*Hace que la imagen no se salga del div, por lo cual la siguiente imagen sigue su curso*/
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background: lightgray;
+}
